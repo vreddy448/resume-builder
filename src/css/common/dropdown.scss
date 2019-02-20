@@ -1,0 +1,43 @@
+.dropdown {
+  width: auto !important;
+  cursor: pointer
+}
+
+.dropdown-container {
+  padding: 10px 8px 10px 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-container .select{
+  background:url('../../images/baseline-expand_more.svg') no-repeat;
+  background-position:100% center;
+  cursor: pointer
+}
+
+.dropdown-container .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  position: relative;
+  z-index: 10;
+  width: 150%;
+  font-size: 1em;
+  cursor: pointer
+}
+
+.dropdown-container select:active {
+  outline: 0;
+  cursor: pointer
+}
+
+.dropdown-container select:focus {
+  outline: 0;
+  cursor: pointer
+}

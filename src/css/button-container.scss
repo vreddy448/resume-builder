@@ -1,0 +1,19 @@
+.button-container {
+  margin: 1%;
+  padding: 1% 10%;
+}
+
+.material-icons {
+  display: inline;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    margin: 1%;
+    padding: 1% 5%;
+  }
+}

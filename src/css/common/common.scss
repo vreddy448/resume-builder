@@ -1,0 +1,118 @@
+$helvetica-font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.d-inline-b {
+  display: inline-block !important;
+}
+
+.button {
+  font-size: 1rem;
+  border-radius: 4px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.primary {
+  background-color: #37A000;
+  color: #fff;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+}
+
+.primary:active {
+  background-color: #37A122;
+  box-shadow: 0 3px silver;
+  transform: translateY(1px);
+}
+
+.secondary {
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+
+.secondary:active {
+  background-color: #f2f2f2;
+  box-shadow: 0 3px silver;
+  transform: translateY(1px);
+}
+
+.icon {
+  background: transparent;
+  color: #37A000;
+  box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+  padding: 10%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.icon:active {
+  transform: translateY(1px);
+}
+
+.icon-middle {
+  vertical-align: middle;
+}
+
+.section-header {
+  background-color: #F9F9F9;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: "Gotham SSm",Helvetica,Arial,sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  .sm-hide {
+    display: none;
+  }
+}
+
+.btn-primary {
+  background-color: #37a000;
+  border-color: green;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: green !important;
+  border-color: green;
+}
+
+.transparent-bgr, .transparent-bgr:active, .transparent-bgr:hover, .transparent-bgr:focus  {
+  background-color: white !important;
+}
+
+.transparent-bgr {
+  color: #37a000;
+  border-color: #37a000;
+}
+
+.transparent-bgr:active, .transparent-bgr:hover, .transparent-bgr:focus {
+  color: green !important;
+  border-color: green;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.dashed-border {
+  border: 1px dashed silver;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.error {
+  color: #dc3545!important
+}
+
+
